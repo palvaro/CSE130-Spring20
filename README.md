@@ -2,15 +2,14 @@
 ## Distributed Systems
 | key | value | 
 |-----|-------|
-|When: | Monday, Wednesday and Friday at <b>2:40 PM</b>. |
-|Where: | Thimann Lecture 001 |
+|When: | Monday, Wednesday and Friday at <b>1:20 PM</b>. |
+|Where: | Merrill Academic 102 |
 |Who: | [Peter Alvaro](http://people.ucsc.edu/~palvaro/) |
-|Office hours: | Mondays 1-2pm and Wednesdays 12-1pm |
-|Prerequisites: | CMPS101 or CE150 required. CMPS111 or CMPS105 recommended. |
-|Text: | [Distributed Systems](http://www.amazon.com/Distributed-Systems-Concepts-Design-5th/dp/0132143011/), Coulouris et al. -- Optional|
-|TA: | Elisabeth Oliver and Nidhi Shah|
-|TA sections: | Tuesdays 9:50-10:55am in Kresge 323 |
-|| Fridays 10:40-11:45am in Kresge 327
+|Office hours: | TBD -- coming soon! |
+|Prerequisites: | CSE101 or CE150 required. CSE111 or CSE105 recommended. |
+|Optional Text: | [Distributed Systems](http://www.amazon.com/Distributed-Systems-Concepts-Design-5th/dp/0132143011/), Coulouris et al.|
+|TA: | Aldrin Montana and Elisabeth Oliver|
+|TA sections: | TBD|
 |Modules: | [Modules](modules.md)|
 |Readings (in flux): | [Readings](readings.md)|
 
@@ -56,7 +55,7 @@ but we expect you to come to the table with enough programming knowledge and exp
 
 ## Pop quizzes
 
-To ensure that everyone keeps up with the reading and attends class, we will hold a small number of pop quizzes.  Students who do not attend class on the day of a pop quiz will not receive credit.  If you need to miss class, please email the professor or TA *before* the absence with a brief explanation of the cause.
+To ensure that everyone keeps up with the reading and attends class, we may hold a small number of pop quizzes.  Students who do not attend class on the day of a pop quiz will not receive credit.  If you need to miss class, please email the professor or TA *before* the absence with a brief explanation of the cause.
 
 ## Final Project
 
@@ -79,13 +78,13 @@ There will be two examinations: the midterm and the final.
 
 | Subject | Share |
 |-------|---------|
-| Pop quizzes | 10% |
-| Participation | 5% |
+| Pop quizzes | 5% |
+| Participation | 10% |
 | Midterm | 15% |
 | Project | 40% |
 | Final   | 30%   | 
 
-Final projects are required to pass the course.  The fact that participation accounts for 5% of the grade (and pop quizzes for 10%) should give you an idea of the important of class attendance.  
+Final projects are required to pass the course.  The fact that participation accounts for 10% of the grade (and pop quizzes for 5%) should give you an idea of the important of class attendance.  
 
 # Academic honesty
 
