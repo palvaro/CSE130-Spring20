@@ -9,7 +9,7 @@
 ||               Tuesdays @ 1PM |
 |Prerequisites: | CMPE 12 and either CMPE 13 or CMPS 12B; knowledge of C programming language. |
 |Required Text: | Principles of Computer System Design, Saltzer & Kaashoek (ISBN 0123749573)|
-|TA: | Aldrin Montana and Elisabeth Oliver|
+|TA: | Allen Aboytes, Daniel Alves, Kenneth Chang, Clark Hilbert|
 |TA sections: | TBD |
 
 
