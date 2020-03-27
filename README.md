@@ -1,94 +1,60 @@
-# CMPS128 Fall 2019
-## Distributed Systems
+# CMPS130 Spring 2020
+## Principles of Computer System Design
 | key | value | 
 |-----|-------|
 |When: | Monday, Wednesday and Friday at <b>1:20 PM</b>. |
-|Where: | Merrill Academic 102 |
+|Where: | Zoom Room: https://ucsc.zoom.us/my/palvaro (for now -- remember to check back) |
 |Who: | [Peter Alvaro](http://people.ucsc.edu/~palvaro/) |
-|Office hours: | Mondays @ 2:25 (begins at Merrill Academic 102 and ends in E2)|
-||               Fridays @ 12:30 (begins at E2 and ends at Merrill)|
-|Prerequisites: | CSE101 or CE150 required. CSE111 or CSE105 recommended. |
-|Optional Text: | [Distributed Systems](http://www.amazon.com/Distributed-Systems-Concepts-Design-5th/dp/0132143011/), Coulouris et al.|
+|Office hours: | Mondays @ 10AM |
+||               Tuesdays @ 1PM |
+|Prerequisites: | CMPE 12 and either CMPE 13 or CMPS 12B; knowledge of C programming language. |
+|Required Text: | Principles of Computer System Design, Saltzer & Kaashoek (ISBN 0123749573)|
 |TA: | Aldrin Montana and Elisabeth Oliver|
-|TA sections: | TBD|
-|Modules: | [Modules](modules.md)|
+|TA sections: | TBD |
 |Readings (in flux): | [Readings](readings.md)|
 
-# Description
+# Course Overview
 
-This course will explore fundamental as well as emerging topics in distributed systems.
+Students who successfully complete this course will gain an understanding of basic principles of computer systems design: modularity / abstraction, synchronization / concurrency, naming, and performance evaluation. They will understand multiple approaches to each design principle along with the background necessary to choose the right approach for a given situation. They will also understand how to apply these approaches to sample problems, which they will then be able to generalize to computer systems they encounter later.
+Students will also gain experience implementing computer systems code. This experience will be invaluable in later courses such as embedded operating systems (operating systems kernel internals), database design, computer security, and distributed systems.
 
-Distributed systems are notoriously difficult to program, and even harder to reason about.  Much of this difficulty arises from *uncertainty* in the executions of distributed programs.  Uncertainty about the ordering and timing of events and communication give rise to concerns about the *consistency* of program outputs and states. Uncertainty about what may go wrong during an execution (e.g., computers crashing, messages being lost) gives rise to concerns about the *completeness* of these outputs and states.  Together, these sources of uncertainty make achieving even relatively modest guarantees in large-scale systems extremely difficult.
+#  Course Outline
+ * Introduction: dealing with complexity in computer systems
+ * Organization of complex computer systems: fundamental abstractions
+ * Modularity: clients & services
+ * Modularity: virtualization (memory, CPU, computer)
+ * Synchronization & concurrency: definitions & primitives
+ * Synchronization & concurrency: usage examples
+ * Approaches to naming in computer systems
+ * Measuring and evaluating computer system performance
+ * Security in computer systems: issues & mitigation
 
-While distributed systems have been studied for some time, they have only recently become essentially ubiquitous:
-nearly all non-trivial systems are now physically distributed.  It is no longer possible to relegate responsibility for managing the complexity of distributed systems to a group of expert library or infrastructure writers: all programmers must now be distributed programmers. This is both a crisis and an opportunity.
-
-This course will cover both theoretical and practical aspects of distributed systems and distributed programming, diving the subject
-matter into four core [Modules](modules.md):
-
- * Time and Asynchrony
- * Fault Tolerance
- * Consistency
- * Parallelism and Scaleup
-
- 
-# Readings and Prerequisites
-
-The optional text for CMPS128 is [Distributed Systems](http://www.amazon.com/Distributed-Systems-Concepts-Design-5th/dp/0132143011/) by Coulouris et al.  Despite having perhaps the worst cover art that I have ever seen on any book in my life, this text covers most of the fundamental
-concepts of the course.  Note however that the text is supplemental.  The key material of this course is covered in lecture, and reading the text will not be sufficient to pass the examinations.
-
-For optional reading, Mikito Takada's [Distributed Systems for fun and profit](http://book.mixu.net/distsys/) covers 
-many of the same topics in a sophisticated (albeit high-level) way.
-
-Students are required to have completed either CMPS101 or CE150, and are recommended to have completed CMPS111 or CMPS105.
-
-One of the purposes of CMPS128 is to familiarize you with practical aspects of implementing and reasoning about programs that 
-require the cooperation of some number of physical machines.  Hence system building is a critical part of the course.
-While CMPS128 will involve a substantial implementation component, we will not be teaching any particular language.
-That is to say, you are here to build *distributed* systems, 
-but we expect you to come to the table with enough programming knowledge and experience to build non-distributed systems with minimal guidance.  Regardless of the coursework you have undertaken, if you are not comfortable using programming languages 
-(e.g. C, Java, Python, Ruby, Scala, Erlang, Bloom -- pick your poison) to build systems, this course is not for you.
-
-
+Where possible and appropriate, we will use examples from a wide range of modern complex computer systems to illustrate concepts covered in class.
 
  
-# Assigments and Grading
+# Prerequisites
 
-## Pop quizzes
+The formal prerequisites for this class are CMPE 12 and either CMPE 13 or CMPS 12B, as well as familiarity with program- ming in C, which is taught in both CMPE 13 and CMPS 12B. Students are also expected to be familiar with tools such as make and git, but we will hold tutorials for those who would like a refresher.
+While we expect you to know the material covered in the prerequisite classes, we realize that you may not remember all of it. This is OK, but you are responsible for reviewing the material—we won’t have time to cover prerequisite material in lecture or section after the first week.
 
-To ensure that everyone keeps up with the reading and attends class, we may hold a small number of pop quizzes.  Students who do not attend class on the day of a pop quiz will not receive credit.  If you need to miss class, please email the professor or TA *before* the absence with a brief explanation of the cause.
+# Resources 
 
-## Final Project
+We will use the textbook Principles of Computer System Design. We expect you to read the assigned sections in the book before the lecture in which we cover the material, so you’re prepared to ask questions and discuss the material.
 
-The final project will involve implementing and managing fault-tolerant distributed system.  This will be a substantial enginering effort, and we encourage you to work in teams of up to four people.
-
-The final project will be divided into four sub-projects, coming due roughly every two weeks.
-
-Project specifications will be posted on a separate page and announced on Piazza.  They will usually be posted before they are announced, but they are subject to change until announcement.  If we need to change an assigment after it was announced, we will email the class about the change.
-
-Assigments announcements will always include a due date.  
-
-<del>Late assignments are not accepted</del>.  Late assignments will forfeit 10% of the grade for every day late.  Students are granted *one grace day* that they may use for any assignment submission to avoid this penalty.
-
-
-## Examinations
-
-There will be two examinations: the midterm and the final.
-
-## Grading
-
-| Subject | Share |
-|-------|---------|
-| Pop quizzes | 5% |
-| Participation | 10% |
-| Midterm | 15% |
-| Project | 40% |
-| Final   | 30%   | 
-
-Final projects are required to pass the course.  The fact that participation accounts for 10% of the grade (and pop quizzes for 5%) should give you an idea of the important of class attendance.  
-
+Other than the textbook, all material for the class will be distributed and managed online using Canvas or Piazza. Canvas is used for assignments and grading, while Piazza is used for discussion and announcements.
+ 
 # Academic honesty
 
 Collaboration is a key part of research.  I encourage you to discuss the readings and the final project ideas with your classmates.  However, you must reveal the students with whom you discussed the assignments.  Failure to do so will result in formal disciplinary proceedings.  
 
 I should not need to say so, but I do: plagiarism in any form is not acceptable and will not be tolerated.  As researchers, we always stand upon the shoulders of giants, and building upon existing work is the norm.  It is essential, however, that we provide proper attribution.  When in doubt, cite!  
+
+# Assignments and Exams
+
+## Exams
+
+  
+
+Needless to say, exams are going to look different as a consequence of remote instruction!  But they are an essential part of how we measure whether you are learning the material and it is on me to figure out the best workaround.  As of now, my expectation is that we will hold
+
+There will be an in-class midterm (currently scheduled for April 9), and a final exam during the scheduled slot during exam week. You must take each exam at the scheduled time unless you are ill or have an unexpected family emergency (and have a note from a doctor, etc.)
