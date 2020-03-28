@@ -34,7 +34,7 @@ Where possible and appropriate, we will use examples from a wide range of modern
  
 # Prerequisites
 
-The formal prerequisites for this class are CMPE 12 and either CMPE 13 or CMPS 12B, as well as familiarity with program- ming in C, which is taught in both CMPE 13 and CMPS 12B. Students are also expected to be familiar with tools such as make and git, but we will hold tutorials for those who would like a refresher.
+The formal prerequisites for this class are CMPE 12 and either CMPE 13 or CMPS 12B, as well as familiarity with programming in C, which is taught in both CMPE 13 and CMPS 12B. Students are also expected to be familiar with tools such as make and git, but we will hold tutorials for those who would like a refresher.
 While we expect you to know the material covered in the prerequisite classes, we realize that you may not remember all of it. This is OK, but you are responsible for reviewing the material—we won’t have time to cover prerequisite material in lecture or section after the first week.
 
 # Resources 
