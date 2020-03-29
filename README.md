@@ -3,7 +3,7 @@
 | key | value | 
 |-----|-------|
 |When: | Monday, Wednesday and Friday at <b>1:20 PM</b>. |
-|Where: | Zoom Room: https://ucsc.zoom.us/my/palvaro (for now -- remember to check back) |
+|Where: | Zoom Room: CHECK PIAZZA (for now -- remember to check back) |
 |Who: | [Peter Alvaro](http://people.ucsc.edu/~palvaro/) |
 |Office hours: | Mondays @ 10AM |
 ||               Tuesdays @ 1PM |
