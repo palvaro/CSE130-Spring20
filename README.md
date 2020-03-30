@@ -59,7 +59,7 @@ Needless to say, exams are going to look different as a consequence of remote in
 
 It will be challenging to balance respecting your privacy and guarding against academic dishonesty. Nevertheless, I pledge to respect your privacy and I ask that in return you promise to comply with the rules. I will ask each of you to sign a statement at the end of each exam stating that you did not collaborate with others or use prohibited resources while taking the exam.
 
-There will be an in-class midterm (currently scheduled for April 9), and a final exam during the scheduled slot during exam week. You must take each exam at the scheduled time unless you are ill or have an unexpected family emergency (and have a note from a doctor, etc.)
+There will be an in-class midterm (currently scheduled for April 29), and a final exam during the scheduled slot during exam week. You must take each exam at the scheduled time unless you are ill or have an unexpected family emergency (and have a note from a doctor, etc.)
 
 ## Programming assignments
 
