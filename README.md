@@ -99,7 +99,7 @@ The material in this class can be complex and difficult, so there are several wa
  * Read (really read!) the assignments and other course materials.
  * Read and post to the class discussion forum on Piazza
  * Meet with the course staff during office hours.
- * Email the course staff (cse130-staff⟨⟨at ⟩⟩ucsc·edu).
+ * Send a private piazza post to the course staff.
  
 You’re encouraged to post general questions to the Piazza forum, and to answer questions others have posted there. Asking things like "how does this concept work?" or "can someone help install Ubuntu LINUX 18.04 on VirtualBox?" are fine. Questions such as "can someone post sample code for Assignment 2" or "why doesn’t the attached code work?" are not acceptable, and should be asked during office hours (preferable), or via private Piazza messages. Course staff will also read the forum and reply to posted questions.
 
