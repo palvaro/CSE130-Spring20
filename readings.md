@@ -1,6 +1,11 @@
-|Module | Reading | Finish by | 
-|----------|----------|-----------|
-|Time| [Time, Clocks, and the Ordering of Events in a Distributed System](http://amturing.acm.org/p558-lamport.pdf)| TBD|
-|Consistency | [Dynamo](http://s3.amazonaws.com/AllThingsDistributed/sosp/amazon-dynamo-sosp2007.pdf) | | 
-|Consistency | [Consistency explained through baseball](http://research.microsoft.com/pubs/206913/ConsistencyAndBaseballCACMAccepted.pdf) | | 
-|Scale|[MapReduce](https://www.usenix.org/legacy/event/osdi04/tech/full_papers/dean/dean.pdf) | |
+|Week | Readings | 
+|----------|----------|
+|One | Chapter 1: Complex computer systems, Issues in dealing with complexity, Fundamental abstractions
+|| Sections 2.1–2.3: Basic naming|
+|Two | Section 4.1, 4.2, 4.3: Client-server systems|
+|Three | Sections 5.1, 5.2: Virtualization |
+|Four | Section 5.2: Synchronization|
+|Five | Midterm |
+|Six | Section 3.1, 3.2: Naming |
+|Seven | Section 6.1, 6.2, 6.4: Performance|
+|Eight | Section 11: Security |
